@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.4</version>
+		<version>3.1.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>net.javaguides</groupId>
@@ -15,7 +15,8 @@
 	<description>Demo project for Spring Boot Restful web services</description>
 
 	<properties>
-		<java.version>17</java.version>
+		<java.version>21</java.version>
+                <exec.mainClass>net.javaguides.springboot.SpringbootCrudRestfulWebservicesApplication</exec.mainClass>
 	</properties>
 
 	<dependencies>
